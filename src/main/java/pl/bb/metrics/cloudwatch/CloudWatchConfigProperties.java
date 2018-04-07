@@ -16,6 +16,9 @@ class CloudWatchConfigProperties implements CloudWatchConfig {
     @PositiveOrZero
     private int batchSize;
 
+    //metrics are published at step() value, default every 1 minute
+
+
     public String getNamespace() {
         return namespace;
     }
