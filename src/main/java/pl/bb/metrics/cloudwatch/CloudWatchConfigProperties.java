@@ -35,6 +35,8 @@ class CloudWatchConfigProperties implements CloudWatchConfig {
         this.batchSize = batchSize;
     }
 
+
+
     @Override
     public String namespace() {
         return namespace;
